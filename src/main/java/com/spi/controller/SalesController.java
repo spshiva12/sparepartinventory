@@ -20,7 +20,7 @@ import com.spi.service.SalesServiceImpl;
 
 @RestController
 @RequestMapping("/sales")
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "http://localhost:3000")
 public class SalesController {
 
 	@Autowired
